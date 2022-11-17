@@ -1601,6 +1601,7 @@ void init_presets(dt_lib_module_t *self)
   AM("levels");
   AM("rgbcurve");
   AM("rgblevels");
+  AM("sigmoid");
   AM("tonecurve");
 
   SMG(C_("modulegroup", "color"), "color");
@@ -1747,6 +1748,7 @@ void init_presets(dt_lib_module_t *self)
   SQA(is_modern, TRUE);
 
   SMG(C_("modulegroup", "base"), "basic");
+  AM("sigmoid");
   AM("filmicrgb");
   AM("toneequal");
   AM("crop");
